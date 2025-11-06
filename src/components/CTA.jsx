@@ -16,7 +16,7 @@ export default function CTA() {
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.7, ease: easing }}
+            transition={{ duration: 0.55, ease: easing }}
           >
             Let’s create something remarkable
           </motion.h3>
@@ -25,7 +25,7 @@ export default function CTA() {
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.7, ease: easing, delay: 0.05 }}
+            transition={{ duration: 0.55, ease: easing, delay: 0.05 }}
           >
             Tell us about your goals and we’ll craft a tailored plan to get you there.
           </motion.p>
@@ -34,11 +34,11 @@ export default function CTA() {
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.7, ease: easing, delay: 0.1 }}
+            transition={{ duration: 0.55, ease: easing, delay: 0.1 }}
           >
             <a
               href="#"
-              className="inline-flex items-center justify-center rounded-full bg-[#118384] text-white px-6 py-3 text-sm font-medium shadow-sm transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+              className="inline-flex items-center justify-center rounded-full bg-[#118384] text-white px-6 py-3 text-sm font-medium shadow-sm transition-transform duration-300 hover:-translate-y-[6px] hover:shadow-lg"
             >
               Start a project
             </a>

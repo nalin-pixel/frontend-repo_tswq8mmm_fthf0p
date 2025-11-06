@@ -7,18 +7,10 @@ import CTA from './components/CTA';
 function App() {
   return (
     <main className="min-h-screen bg-[#F4F4F2] text-[#1E324A] antialiased">
-      {/* Hero with Spline scene and animated intro */}
       <Hero />
-
-      {/* Services overview */}
       <Services />
-
-      {/* Selected work / case studies */}
       <Showcase />
-
-      {/* Call to action */}
       <CTA />
-
       <footer className="bg-[#F4F4F2] text-[#1E324A]/70 py-10">
         <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm">© {new Date().getFullYear()} Ozlume. All rights reserved.</p>

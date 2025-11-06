@@ -29,7 +29,7 @@ export default function Showcase() {
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7, ease: easing }}
+          transition={{ duration: 0.55, ease: easing }}
         >
           <h2 className="text-3xl md:text-4xl font-semibold">Selected Work</h2>
           <p className="mt-3 text-[#1E324A]/70">A glimpse into recent partnerships and outcomes.</p>
@@ -40,11 +40,11 @@ export default function Showcase() {
             <motion.a
               key={w.title}
               href="#"
-              className="group relative overflow-hidden rounded-2xl bg-white border border-[#1E324A]/10 shadow-sm"
+              className="group relative overflow-hidden rounded-2xl bg-white border border-[#1E324A]/10 shadow-sm hover:shadow-2xl hover:-translate-y-[6px] transition-all duration-300"
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, ease: easing, delay: i * 0.05 }}
+              transition={{ duration: 0.55, ease: easing, delay: i * 0.04 }}
             >
               <img
                 src={w.img}
